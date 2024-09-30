@@ -1,0 +1,21 @@
+/* style.css  */
+
+#background {
+    background-color: rgb(30, 242, 125);
+}
+
+#title {
+    text-align: center;
+    font-weight: bold;
+    font-size: 36px;
+}
+
+.subheader {
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.list {
+    font-weight: bold;
+    font-size: 20px;
+}
