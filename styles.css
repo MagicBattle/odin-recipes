@@ -1,7 +1,50 @@
 /* style.css  */
 
+.spacing {
+    position: relative;
+    margin-left: 30px;
+    margin-top: -70px;
+} 
+
+#info {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-style: italic;
+    font-size: 20px; 
+    border-top-style: solid;
+    border-left-style: dashed;
+    border-right-style: dashed;
+    border-bottom-style: solid;
+    border-left-color: silver;
+    border-left-width: 10px;
+    border-right-color: silver;
+    border-right-width: 10px;
+}
+
+.label{
+    margin: 20px;
+    color: black; 
+    padding: 5px;
+    border-radius: 5px;
+    border-style: solid;
+    border-width: 5px;
+    text-align: center;
+
+}
+
 #background {
-    background-color: rgb(30, 242, 125);
+    /*background-color: rgb(214, 244, 234);*/
+    /*background-color: snow;*/
+    background: linear-gradient(to right,#E0D2C7, #44B09E);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+#description {
+    color: black;
+    margin: 100px;
+    padding: 16px;
+    background: linear-gradient(to right,#E0D2C7, #44B09E);
 }
 
 #title {
@@ -12,10 +55,21 @@
 
 .subheader {
     font-weight: bold;
-    font-size: 24px;
-}
+    font-size: 16px;
+    color: purple;
+    background: beige;
+    margin: auto;
+    
+} 
 
 .list {
     font-weight: bold;
     font-size: 20px;
+} 
+
+li {
+    text-decoration: green underline;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+    font-weight: bold;
 }
