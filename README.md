@@ -4,3 +4,5 @@ This is my first project in the HTML Foundations course, testing my skills in Gi
 This project now displays some basic css to showcase my new learning. 
 
 The next update of the project will now display some more knowledge about css about spacing/borders.
+
+This project will continue to get more polished the more I learn about html, css, and javascript
